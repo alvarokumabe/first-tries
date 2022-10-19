@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="alvar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-19 05:35:26 "/>
+        <attribute name="created" value="YWx2YXI7REVTS1RPUC1FSkQ4UlMyOzIwMjItMTAtMTk7IjA1OjI2OjAwICI7Mjc4NA=="/>
+        <attribute name="edited" value="YWx2YXI7REVTS1RPUC1FSkQ4UlMyOzIwMjItMTAtMTk7IjA1OjM1OjI2ICI7MTsyOTAw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fatjan, fatfev, fatmar, fatabr, fatmai, fatjun, media, faturamentototal" type="Real" array="False" size=""/>
+            <input variable="fatjan"/>
+            <input variable="fatfev"/>
+            <input variable="fatmar"/>
+            <input variable="fatabr"/>
+            <input variable="fatmai"/>
+            <input variable="fatjun"/>
+            <assign variable="media" expression="(fatjan+fatfev+fatmar+fatabr+fatmai+fatjun)/6"/>
+            <assign variable="faturamentototal" expression="fatjan+fatfev+fatmar+fatabr+fatmai+fatjun"/>
+            <output expression="media" newline="True"/>
+            <output expression="faturamentototal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
