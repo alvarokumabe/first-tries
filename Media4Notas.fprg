@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="alvar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-19 05:22:10 "/>
+        <attribute name="created" value="YWx2YXI7REVTS1RPUC1FSkQ4UlMyOzIwMjItMTAtMTk7IjA1OjEzOjI2ICI7Mjc4OA=="/>
+        <attribute name="edited" value="YWx2YXI7REVTS1RPUC1FSkQ4UlMyOzIwMjItMTAtMTk7IjA1OjIyOjEwICI7MTsyODg5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nota1, Nota2, Nota3, Nota4, media" type="Real" array="False" size=""/>
+            <input variable="Nota1"/>
+            <input variable="Nota2"/>
+            <input variable="Nota3"/>
+            <input variable="Nota4"/>
+            <assign variable="media" expression="(Nota1+Nota2+Nota3+Nota4)/4"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
