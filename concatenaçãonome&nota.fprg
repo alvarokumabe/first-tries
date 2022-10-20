@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="alvar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-20 09:39:27 "/>
+        <attribute name="created" value="YWx2YXI7REVTS1RPUC1FSkQ4UlMyOzIwMjItMTAtMjA7IjA5OjI5OjE0ICI7Mjc4OA=="/>
+        <attribute name="edited" value="YWx2YXI7REVTS1RPUC1FSkQ4UlMyOzIwMjItMTAtMjA7IjA5OjM5OjI3ICI7MTsyOTAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite seu nome:&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite seu sobrenome:&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;Digite sua nota 1:&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite sua nota 2:&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Digite sua nota 3:&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Digite sua nota 4:&quot;" newline="True"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="&quot;Seu nome &#233;: &quot; &amp; nome &amp; &quot; e seu sobrenome &#233;: &quot; &amp; sobrenome &amp; &quot; e a sua m&#233;dia foi de: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
