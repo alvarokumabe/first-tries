@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="alvar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-19 11:26:03 "/>
+        <attribute name="created" value="YWx2YXI7REVTS1RPUC1FSkQ4UlMyOzIwMjItMTAtMTk7IjExOjIwOjAzICI7Mjc3OA=="/>
+        <attribute name="edited" value="YWx2YXI7REVTS1RPUC1FSkQ4UlMyOzIwMjItMTAtMTk7IjExOjI2OjAzICI7MTsyODky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, fevereiro, marco, abril, media" type="Real" array="False" size=""/>
+            <input variable="janeiro"/>
+            <input variable="fevereiro"/>
+            <input variable="marco"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="(janeiro+fevereiro+marco+abril)/4"/>
+            <output expression="Media" newline="True"/>
+            <if expression="media&gt;=5.000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns, voce atingiu sua meta e ganhar&#225; um bonus de 10% no seu pagamento&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; atingiu suas metas parcialmente, seu bonus ser&#225; de 3% em seu pagamento&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
